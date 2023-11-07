@@ -133,7 +133,7 @@ input, textarea, select, button {
 .multi-languages:hover .multi-languages_list {
     display: block;
 }
-.multi-languages_list li {
+.multi-languages_list li a {
     padding: 10px 16px;
     color: #344054;
     font-size: 14px;
@@ -167,16 +167,16 @@ input, textarea, select, button {
     text-align: center;
 }
 .hero__heading {
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 56px;
+    font-weight: 700;
     line-height: 72px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .hero__text {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .video-background {
@@ -269,7 +269,7 @@ input, textarea, select, button {
     padding-top: 70px;
 }
 .value-text {
-    margin-right: 20px;
+    margin-right: -25px;
     z-index: 1;
     transform: translateX(-140%);
     transition: 0.7s;
@@ -297,7 +297,7 @@ input, textarea, select, button {
     -webkit-text-fill-color: transparent;
 }
 .value-text__highlight {
-    width: 482px;
+    width: 510px;
     position: relative;
 }
 .value-text__highlight .star1 {
@@ -394,12 +394,12 @@ input, textarea, select, button {
     left: 30px;
 }
 .switch-btn {
-    width: 300px;
+    width: 380px;
     height: 44px;
     margin: auto;
     padding: 3px;
     display: flex;
-    gap: 12px;
+    /* gap: 12px; */
     border-radius: 30px;
     border: 1px solid #F7B27A; 
 }
@@ -409,7 +409,7 @@ input, textarea, select, button {
     font-weight: 500;
     line-height: 38px;
     text-align: center;
-    width: 140px;
+    width: 190px;
     height: 100%;
     cursor: pointer;
 }
@@ -980,7 +980,7 @@ input, textarea, select, button {
     padding: 112px 0 88px 0;
 }
 .join-us__text {
-    width: 830px;
+    width: 750px;
     color: #000;
     font-size: 50px;
     font-weight: 700;
