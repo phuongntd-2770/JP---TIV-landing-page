@@ -269,7 +269,7 @@ input, textarea, select, button {
     padding-top: 70px;
 }
 .value-text {
-    margin-right: -25px;
+    margin-right: -140px;
     z-index: 1;
     transform: translateX(-140%);
     transition: 0.7s;
@@ -297,7 +297,7 @@ input, textarea, select, button {
     -webkit-text-fill-color: transparent;
 }
 .value-text__highlight {
-    width: 510px;
+    width: 620px;
     position: relative;
 }
 .value-text__highlight .star1 {
